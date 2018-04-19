@@ -40,7 +40,7 @@ public class Casilla {
 
     //El metodo toString esta sobreescrito para mostrar una X si el numero ya fue marcado
     //O el numero si aun no ha sido marcado
-    @Override
+
     public String toString() {
        if(!tachado){
            return "" + numero;
