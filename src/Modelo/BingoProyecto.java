@@ -23,7 +23,6 @@
 // Si el archivo Bingo.txt esta vacio es posible que el programa falle sin embargo el archivo Bolas.txt puede estar vacio
 // Eso indicaria que no se ha sacado ninguna bola
 
-// OBSERVACION: En un carton de bingo pueden haber numeros repetidos.
 
 package Modelo;
 
