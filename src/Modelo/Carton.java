@@ -204,7 +204,7 @@ public class Carton {
 
     //El metodo ToString esta sobreescrito para imprimir el carton de bingo de la manera correcta
     // Esta es la funcion
-    @Override
+
     public String toString() {
         String x =" --------------------  \n";
         x +=      "| B | I | N | G | O  | \n";
