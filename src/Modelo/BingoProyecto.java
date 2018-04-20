@@ -1,32 +1,7 @@
-//****************************
-// * EXPLICACION DE LOS ARCHIVOS
-// * ***************************
-// * EL PROGRAMA USA DOS ARCHIVOS
-// * Bingo.txt guarda la cantidad de cartones del juego y posteriormente los numeros en orden por carton
-// * Bolas.txt guarda los numeros que ya han salido de la tombola
-// * Cuando se lee Bingo.txt se meten todos los numeros en una lista de tipo ArrayList
-// * El primer elemento corresponde a la cantidad de cartones que se deben construir
-// * luego de eso se toman grupos de 25 numeros, que se mapean a una matriz bidimensional
-// * Cuando se lee Bolas.txt se guardan todos los numeros que deberian estar tachados en los cartones
-// * posteriormente se colocan en el conjunto de seleccionados en la clase Tombola
-// * se llena la tombola y luego se comparan ambos conjuntos con el objetivo de quitar todos los numeros que ya fueron seleccionados de la tombola
-// * cuando este proceso se termina funciona igual que el jugar.
 
-// *********************************
-// REGLAS DEL JUEGO
-// *********************************
-// Un juego termina si: Algun carton esta lleno o el usuario selecciona la opcion de salir
-// Cada vez que el usuario selecciona salir se le advierte que todo progreso no guardado se perdera
-// de este modo el usuario podria arrepentirse y devolverse para guardar
-// Si se elige la opcion de comenzar un nuevo juego se debe introducir la cantidad de cartones que jugaran
-// Si se elige la opcion de cargar juego se usaran la cantidad de cartones que tenga el archivo que fue guardado por ultima vez
-// Si el archivo Bingo.txt esta vacio es posible que el programa falle sin embargo el archivo Bolas.txt puede estar vacio
-// Eso indicaria que no se ha sacado ninguna bola
 
 
 package Modelo;
-
-import Modelo.*;
 import java.io.IOException;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
